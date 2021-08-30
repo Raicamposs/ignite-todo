@@ -1,7 +1,7 @@
-## Todo API
+# [Desafio 01 - Conceitos do Node.js](https://www.notion.so/Desafio-01-Conceitos-do-Node-js-59ccb235aecd43a6a06bf09a24e7ede8)
 
----
-
+>  Conteúdo da Ignite - Trilha Node.js. Desafio proposto pela plataforma da Rocketseat.
+ 
 ## Requisitos - Rotas da aplicação
 
 ### POST `/users`
@@ -49,3 +49,6 @@ A rota deve receber, pelo header da requisição, uma propriedade `username` con
 ### DELETE `/todos/:id`
 
 A rota deve receber, pelo header da requisição, uma propriedade `username` contendo o username do usuário e excluir o *todo* que possuir um `id` igual ao `id` presente nos parâmetros da rota.
+
+
+[Raiane Campos](https://www.linkedin.com/in/raiane-campos-6a225b80/) - raianejanu@gmail.com
