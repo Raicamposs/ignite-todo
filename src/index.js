@@ -77,7 +77,7 @@ app.put('/todos/:id', checksExistsUserAccount, checksExistsTodo, (request, respo
   todo.title = title ?? todo.title;
   todo.deadline = new Date(deadline ?? todo.deadline);
 
-  return response.json({ title: todo.title, deadline: todo.deadline, done: todo.done });
+  return response.json(todo);
 });
 
 app.patch('/todos/:id/done', checksExistsUserAccount, checksExistsTodo, (request, response) => {
