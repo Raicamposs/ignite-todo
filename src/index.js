@@ -74,8 +74,8 @@ app.put('/todos/:id', checksExistsUserAccount, checksExistsTodo, (request, respo
   const { todo } = request;
   let { title, deadline } = request.body;
 
-  todo.title = title ?? todo.title;
-  todo.deadline = new Date(deadline ?? todo.deadline);
+  todo.title = title;
+  todo.deadline = new Date(deadline);
 
   return response.json(todo);
 });
